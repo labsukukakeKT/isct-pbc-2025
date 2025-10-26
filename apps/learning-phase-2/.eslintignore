@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+.next/
+out/
+build/
+dist/
+
+# Testing
+coverage/
+test-results/
+playwright-report/
+.nyc_output
+
+# Generated files
+*.min.js
+*.tsbuildinfo
+next-env.d.ts
+
+# Prisma generated
+prisma/migrations/
+
+# Configuration
+.eslintrc.json
+next.config.mjs
+postcss.config.mjs
+tailwind.config.ts
