@@ -1,0 +1,15 @@
+/**
+ * Convert pet age to human years
+ * Dogs: age * 7
+ * Cats: age * 5
+ * Others: age * 3
+ */
+export function toHumanYears(age: number, species: string): number {
+  if (species === "Dog") {
+    return age * 7
+  } else if (species === "Cat") {
+    return age * 5
+  } else {
+    return age * 3
+  }
+}
