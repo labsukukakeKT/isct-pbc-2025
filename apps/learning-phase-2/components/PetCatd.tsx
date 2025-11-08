@@ -1,13 +1,13 @@
 import { toHumanYears } from '../lib/petUtils'
 
 type PetCardProps = {
-  id: number  // Add this
+  // id: number  // Add this
   name: string
   species: string
   age: number
   color: string
   breed: string
-  isVaccinated: boolean
+  // isVaccinated: boolean
 }
 
 export default function PetCard({ name, species, age, color, breed }: PetCardProps) {
